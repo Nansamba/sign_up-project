@@ -17,21 +17,32 @@
     </div>
     <form>
       <ul class="tab-group">
-        <li class="tab active"><a href="#signup">Login</a></li>
-        <li class="tab"><a href="#login">Sign Up</a></li>
+        <li class="tab active"><a href="form.html">Login</a></li>
+        <li class="tab"><a href="sign-up.html">Sign Up</a></li>
       </ul>
 
-      <label for="username">Username</label>
-      <input type="text" placeholder="Email or Phone" id="username" required />
+      <div class="form-control">
+      <label for="Email">Email</label>
+      <input type="email" placeholder="Enter your Email" id="Email2"/>
+      <small>Error message</small>
 
-      <label for="password">Password</label>
-      <input type="password" placeholder="Password" id="password" required />
+      </div>
+      
+      <div class="form-control">
+        <label for="password">Password</label>
+      <input type="password" placeholder="Enter your Password" id="password3"/>
+      <small>Error message</small>
+      </div>
+      
       <h4>Forgot password?</h4>
 
-      <button class="btn">Login</button>
+      <button class="btn" type="submit">Login</button>
       <div class="alternate">
-        <h4>Not a member? <span>Signup Now</span></h4>
+        <h4>Not a member? <span>Sign up Now</span></h4>
       </div>
     </form>
+
+    <script src="signup.js"></script>
   </body>
+
 </html>
